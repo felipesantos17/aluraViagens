@@ -13,6 +13,8 @@
 		8FC27FF527E03A2B00C2A938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC27FF327E03A2B00C2A938 /* Main.storyboard */; };
 		8FC27FF727E03A3000C2A938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC27FF627E03A3000C2A938 /* Assets.xcassets */; };
 		8FC27FFA27E03A3000C2A938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC27FF827E03A3000C2A938 /* LaunchScreen.storyboard */; };
+		8FFFA1C627ED5190008E9D7D /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FFFA1C527ED5190008E9D7D /* HomeTableViewHeader.xib */; };
+		8FFFA1C827ED5E6A008E9D7D /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFFA1C727ED5E6A008E9D7D /* HomeTableViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8FC27FF627E03A3000C2A938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FC27FF927E03A3000C2A938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FC27FFB27E03A3000C2A938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FFFA1C527ED5190008E9D7D /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		8FFFA1C727ED5E6A008E9D7D /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F0E78DC27F4B20B009925D7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8FC27FED27E03A2B00C2A938 /* AppDelegate.swift */,
+				8FC27FEF27E03A2B00C2A938 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8F0E78DD27F4B221009925D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F0E78DE27F4B226009925D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F0E78DF27F4B23C009925D7 /* Header */,
+				8FC27FF127E03A2B00C2A938 /* ViewController.swift */,
+				8FC27FF327E03A2B00C2A938 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F0E78DF27F4B23C009925D7 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				8FFFA1C527ED5190008E9D7D /* HomeTableViewHeader.xib */,
+				8FFFA1C727ED5E6A008E9D7D /* HomeTableViewHeader.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		8F0E78E027F4B253009925D7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		8FC27FE127E03A2B00C2A938 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +102,10 @@
 		8FC27FEC27E03A2B00C2A938 /* AluraViagens */ = {
 			isa = PBXGroup;
 			children = (
-				8FC27FED27E03A2B00C2A938 /* AppDelegate.swift */,
-				8FC27FEF27E03A2B00C2A938 /* SceneDelegate.swift */,
-				8FC27FF127E03A2B00C2A938 /* ViewController.swift */,
-				8FC27FF327E03A2B00C2A938 /* Main.storyboard */,
+				8F0E78DC27F4B20B009925D7 /* AppDelegate */,
+				8F0E78DD27F4B221009925D7 /* Model */,
+				8F0E78DE27F4B226009925D7 /* View */,
+				8F0E78E027F4B253009925D7 /* ViewModel */,
 				8FC27FF627E03A3000C2A938 /* Assets.xcassets */,
 				8FC27FF827E03A3000C2A938 /* LaunchScreen.storyboard */,
 				8FC27FFB27E03A3000C2A938 /* Info.plist */,
@@ -126,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FC27FFA27E03A3000C2A938 /* LaunchScreen.storyboard in Resources */,
+				8FFFA1C627ED5190008E9D7D /* HomeTableViewHeader.xib in Resources */,
 				8FC27FF727E03A3000C2A938 /* Assets.xcassets in Resources */,
 				8FC27FF527E03A2B00C2A938 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FC27FF227E03A2B00C2A938 /* ViewController.swift in Sources */,
+				8FFFA1C827ED5E6A008E9D7D /* HomeTableViewHeader.swift in Sources */,
 				8FC27FEE27E03A2B00C2A938 /* AppDelegate.swift in Sources */,
 				8FC27FF027E03A2B00C2A938 /* SceneDelegate.swift in Sources */,
 			);
