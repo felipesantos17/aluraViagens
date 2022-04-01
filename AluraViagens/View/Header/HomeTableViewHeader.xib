@@ -15,11 +15,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fvp-RE-OGJ" userLabel="Header View">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                    <rect key="frame" x="-293" y="0.0" width="1000" height="250"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alura viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOC-I8-ofa">
-                            <rect key="frame" x="8" y="52" width="146" height="33"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alura viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOC-I8-ofa">
+                            <rect key="frame" x="313" y="48" width="146" height="33"/>
                             <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="23"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
@@ -27,6 +26,8 @@
                     </subviews>
                     <color key="backgroundColor" red="0.1176470588" green="0.23137254900000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
+                        <constraint firstAttribute="width" constant="1000" id="8Eq-kk-Zcy"/>
+                        <constraint firstItem="WOC-I8-ofa" firstAttribute="top" secondItem="Fvp-RE-OGJ" secondAttribute="top" constant="48" id="GWP-Tk-B1G"/>
                         <constraint firstAttribute="height" constant="250" id="J55-72-o6t"/>
                     </constraints>
                 </view>
@@ -80,12 +81,12 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="Fvp-RE-OGJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="BWH-Ym-842"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="skL-aS-9hX" secondAttribute="trailing" constant="20" id="PWI-6G-IDH"/>
-                <constraint firstItem="Fvp-RE-OGJ" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="RHZ-JU-1DG"/>
                 <constraint firstItem="Fvp-RE-OGJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Z1u-Tn-8z8"/>
                 <constraint firstItem="skL-aS-9hX" firstAttribute="bottom" secondItem="Fvp-RE-OGJ" secondAttribute="bottom" constant="10" id="fJZ-f0-vzW"/>
+                <constraint firstItem="WOC-I8-ofa" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="tLa-re-Ocm"/>
                 <constraint firstItem="skL-aS-9hX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="19" id="wbL-g2-Yed"/>
+                <constraint firstItem="Fvp-RE-OGJ" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="wiw-Jn-gCx"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
@@ -94,7 +95,7 @@
                 <outlet property="headerView" destination="Fvp-RE-OGJ" id="lIw-Mc-j3o"/>
                 <outlet property="titleLabel" destination="WOC-I8-ofa" id="VDo-9M-jdN"/>
             </connections>
-            <point key="canvasLocation" x="131.8840579710145" y="116.51785714285714"/>
+            <point key="canvasLocation" x="131.8840579710145" y="115.7608695652174"/>
         </view>
     </objects>
     <resources>

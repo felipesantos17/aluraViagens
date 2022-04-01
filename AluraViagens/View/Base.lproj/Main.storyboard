@@ -27,7 +27,7 @@
                             <constraint firstItem="nuL-dA-VfA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8kp-MB-oqT"/>
                             <constraint firstAttribute="bottom" secondItem="nuL-dA-VfA" secondAttribute="bottom" id="B9o-KA-yqJ"/>
                             <constraint firstAttribute="trailing" secondItem="nuL-dA-VfA" secondAttribute="trailing" id="Mc7-O4-7Um"/>
-                            <constraint firstItem="nuL-dA-VfA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ON8-pP-xe2"/>
+                            <constraint firstItem="nuL-dA-VfA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="peG-3P-BkK"/>
                         </constraints>
                     </view>
                     <connections>
