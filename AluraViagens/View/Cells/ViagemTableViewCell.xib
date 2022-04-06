@@ -10,17 +10,17 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ViagemTableViewCell" customModule="AluraViagens" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ViagemTableViewCell" id="KGk-i7-Jjw" customClass="ViagemTableViewCell" customModule="AluraViagens" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aou-TR-fZe">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aou-TR-fZe" userLabel="BackgroundView">
                         <rect key="frame" x="10" y="10" width="300" height="380"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qFS-Vk-fNK" userLabel="BackgroundView">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qFS-Vk-fNK">
                                 <rect key="frame" x="0.0" y="0.0" width="300" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="180" id="UvJ-YE-19V"/>
@@ -111,6 +111,16 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backgroundViewCell" destination="Aou-TR-fZe" id="UCa-WJ-Ien"/>
+                <outlet property="diariaViagemLabel" destination="iHB-XI-pYk" id="gSZ-In-r98"/>
+                <outlet property="precoSemDescontoLabel" destination="vlT-rR-MgK" id="gYX-lh-DJc"/>
+                <outlet property="precoViagemLabel" destination="2KR-bw-HSA" id="ieq-et-l5m"/>
+                <outlet property="statusCancelamentoViagemLabel" destination="qRQ-ro-LUN" id="oAQ-9t-hTd"/>
+                <outlet property="subtituloViagemLabel" destination="KhS-de-sbz" id="gEd-zC-FsP"/>
+                <outlet property="tituloViagemLabel" destination="2hY-Ty-tNb" id="CLb-EA-8N6"/>
+                <outlet property="viagemImage" destination="qFS-Vk-fNK" id="2UU-Zf-1jQ"/>
+            </connections>
             <point key="canvasLocation" x="131.8840579710145" y="116.51785714285714"/>
         </tableViewCell>
     </objects>
