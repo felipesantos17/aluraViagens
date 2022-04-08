@@ -17,6 +17,7 @@
 		8FC27FF527E03A2B00C2A938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC27FF327E03A2B00C2A938 /* Main.storyboard */; };
 		8FC27FF727E03A3000C2A938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC27FF627E03A3000C2A938 /* Assets.xcassets */; };
 		8FC27FFA27E03A3000C2A938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC27FF827E03A3000C2A938 /* LaunchScreen.storyboard */; };
+		8FE943FC2800BEAF008273DA /* ViagemOfertaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE943FB2800BEAF008273DA /* ViagemOfertaViewModel.swift */; };
 		8FF9D1A727FD0CF500F0423F /* server-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 8FF9D1A627FD0CF500F0423F /* server-response.json */; };
 		8FF9D1A927FD0D3800F0423F /* DecodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF9D1A827FD0D3800F0423F /* DecodableData.swift */; };
 		8FF9D1AB27FD0D6100F0423F /* TiposDeViagens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF9D1AA27FD0D6100F0423F /* TiposDeViagens.swift */; };
@@ -41,6 +42,7 @@
 		8FC27FF627E03A3000C2A938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FC27FF927E03A3000C2A938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FC27FFB27E03A3000C2A938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE943FB2800BEAF008273DA /* ViagemOfertaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemOfertaViewModel.swift; sourceTree = "<group>"; };
 		8FF9D1A627FD0CF500F0423F /* server-response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "server-response.json"; path = "../../../../Arquivos Swift/arquivos/server-response.json"; sourceTree = "<group>"; };
 		8FF9D1A827FD0D3800F0423F /* DecodableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodableData.swift; sourceTree = "<group>"; };
 		8FF9D1AA27FD0D6100F0423F /* TiposDeViagens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiposDeViagens.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				8FF9D1B127FD0E0500F0423F /* ViagemViewModel.swift */,
 				8FF9D1B327FD0F6400F0423F /* ViagemDestaqueViewModel.swift */,
+				8FE943FB2800BEAF008273DA /* ViagemOfertaViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				8FC27FF227E03A2B00C2A938 /* ViewController.swift in Sources */,
 				8F44AAA927F79E1A000E6A56 /* ViagemTableViewCell.swift in Sources */,
 				8FF9D1B027FD0D9900F0423F /* UIView+Extension.swift in Sources */,
+				8FE943FC2800BEAF008273DA /* ViagemOfertaViewModel.swift in Sources */,
 				8F42534627FFE4580033E31A /* OfertaTableViewCell.swift in Sources */,
 				8FF9D1AB27FD0D6100F0423F /* TiposDeViagens.swift in Sources */,
 				8FFFA1C827ED5E6A008E9D7D /* HomeTableViewHeader.swift in Sources */,
